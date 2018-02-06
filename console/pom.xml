@@ -17,7 +17,7 @@
         <guava.version>16.0.1</guava.version>
         <commons-digester.version>2.1</commons-digester.version>
         <velocity-tools.version>2.0</velocity-tools.version>
-        <rocketmq.version>3.5.8</rocketmq.version>
+        <rocketmq.version>4.2.0</rocketmq.version>
         <commons-lang.version>2.6</commons-lang.version>
         <groovy-all.version>1.6.3</groovy-all.version>
         <velocity.version>1.7</velocity.version>
@@ -26,9 +26,9 @@
         <commons-io.version>2.4</commons-io.version>
         <commons-cli.version>1.2</commons-cli.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
-        <netty-all.version>4.0.27.Final</netty-all.version>
+       <!-- <netty-all.version>4.0.27.Final</netty-all.version>-->
         <fastjson.version>1.1.37</fastjson.version>
-        <spring.version>5.0.2</spring.version>
+        <spring.version>5.0.3.RELEASE</spring.version>
 
         <jackson.version>1.9.10</jackson.version>
         <servlet-api.version>2.5</servlet-api.version>
@@ -70,27 +70,27 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.0.0.M5</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>5.0.0.M5</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.0.0.M5</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.0.0.RC3</version>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
@@ -118,11 +118,11 @@
             <artifactId>spring-oxm</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc-portlet</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
@@ -208,11 +208,11 @@
             <artifactId>commons-httpclient</artifactId>
             <version>${commons-httpclient.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>${netty-all.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
